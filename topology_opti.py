@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Dec 18 23:09:04 2020
-
-@author: hp
-"""
-
 import tensorflow as tf
 from tensorflow.keras.layers import Input, Conv2D, MaxPool2D, Dropout, BatchNormalization, concatenate, Conv2DTranspose
 from tensorflow.keras.models import Model, load_model
